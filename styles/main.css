@@ -1,0 +1,131 @@
+body {
+    background-image: url(../pictures/background.jpg);
+    margin: 0px;
+}
+@font-face {
+    font-family: ProMed;
+    src: url(../fonts/PFDinDisplayPro-Med.ttf);
+}
+hr {
+    border-top: 1px solid #0F89FF;
+}
+input {
+    border-color: #0099FF;
+    border-style: solid;
+    color: #0F89FF;
+}
+#margin {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    margin-bottom: 0px;
+}
+#cap {
+    display: flex;
+	width: 100%;
+	justify-content: space-between;
+    align-items: flex-start;
+	align-items: center;
+}
+#cap #register {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    padding: 15px;
+    line-height: 1.25;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border: 1px solid #0C9FFF;
+    border-radius: 5px;
+    font-family: ProMed;
+    color: #0F89FF;
+    text-shadow: #FFFFFF 1px 1px 0, #FFFFFF -1px -1px 0, 
+                 #FFFFFF -1px 1px 0, #FFFFFF 1px -1px 0;
+    background-image: url(../pictures/background2.jpg);
+}
+#view {
+	display: flex;
+}
+#view #menu {
+	display: inline-flex;
+    flex-direction: column;
+    margin-right: 5px;
+	flex-grow: 25;
+	background-color: rgba(0,0,0,0);
+}
+a .black{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+}
+a:hover .black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.10);
+    color: #1276FF
+}
+#menu .item {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #1276FF;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-family: ProMed;
+    text-decoration: none;
+    color: #1276FF;
+    background-image: url(../pictures/background2.jpg);
+}
+#menu .item:last-child {
+    margin-bottom: 0;
+}
+#view #content {
+    display: inline-block;
+	flex-grow: 55;
+	min-height: 90vh;
+	font-family: ProMed;
+    background-image: url(https://wallset.ru/images/detailed/61/06-Iron.jpg);
+    color: #0F89FF;
+    font-size: 26px;
+    line-height: 1.5;
+    padding: 12px;
+    border: 1px solid #0C9FFF;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#content .title {
+    display: block;
+    font-size: 48px;
+    font-family: ProMed;
+    text-align: center;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#content #comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+    
+    color: white;
+	font-family: arial;
+    background-color: #0F89FF;
+}
+#view #news {
+    flex-grow: 20;
+	background-color: #AA998C;
+}
+#bottom {
+	display: block;
+	padding: 30px;
+	text-align: center;
+	color: white;
+	font-family: ProMed;
+	background-color: #0F89FF;
+}
